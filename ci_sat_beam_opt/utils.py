@@ -23,7 +23,7 @@ def seed_all(seed=42):
     random.seed(seed)
 
 def radec_to_unit(theta_rad, phi_rad):
-    """Spherical to unit vector (physics convention)."""
+    """Spherical to unit vector."""
     st = np.sin(theta_rad); ct = np.cos(theta_rad)
     sp = np.sin(phi_rad);   cp = np.cos(phi_rad)
     return np.array([st*cp, st*sp, ct])

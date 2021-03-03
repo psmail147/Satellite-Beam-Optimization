@@ -14,7 +14,7 @@ def write_yaml(path, data):
         yaml.safe_dump(data, f, sort_keys=False)
 
 def load_summary(tag):
-    """Read one run's JSON summary and add derived SLL in dB."""
+    """Read one runs JSON summary and add derived SLL in dB."""
     path = os.path.join("results", f"summary_{tag}.json")
     if not os.path.exists(path):
         return None
