@@ -57,7 +57,3 @@ tests/
 - Error models (gain/phase jitter, element failures)
 - Objectives: SNR (avg/5th-percentile), sidelobe level, retune cost
 - Optimizer choice + hyperparams
-
-## License
-
-MIT
