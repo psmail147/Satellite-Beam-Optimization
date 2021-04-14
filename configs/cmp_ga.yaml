@@ -1,0 +1,28 @@
+seed: 42
+tag: cmp_ga
+array:
+  nx: 4
+  ny: 4
+  fc: 435000000.0
+  phase_bits: 3
+  amp_levels: 1
+  sigma_phase_deg: 0.0
+  sigma_gain_db: 0.0
+pass:
+  duration_s: 480
+  dt: 30.0
+  max_el_deg: 45.0
+interferers:
+  num: 2
+channel:
+  noise_power_dbm: -100
+  interferer_power_dbm: -80
+  apply_errors: false
+objective:
+  alpha: 1.0
+  beta: 0.5
+  gamma: 0.1
+optimizer:
+  name: GA
+  pop: 24
+  iters: 50

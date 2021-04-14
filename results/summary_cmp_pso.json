@@ -1,0 +1,11 @@
+{
+  "optimizer": "PSO",
+  "dims": 272,
+  "pop": 24,
+  "iters": 50,
+  "snr_avg_opt_lin": 479656992769.12006,
+  "snr_avg_opt_db": 116.80930780295421,
+  "sll_max_opt_lin": 0.12008098926127772,
+  "retune_cost": 1.465816074956562,
+  "objective_value": 479656992768.9134
+}

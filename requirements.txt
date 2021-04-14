@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+pyyaml
+mealpy==3.0.3
+numba; platform_system != "Windows"

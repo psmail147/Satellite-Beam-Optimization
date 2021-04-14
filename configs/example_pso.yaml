@@ -1,0 +1,32 @@
+seed: 7
+tag: "pso_4x4_b3"
+
+array:
+  nx: 4
+  ny: 4
+  fc: 4.35e8
+  phase_bits: 3
+  amp_levels: 1
+
+pass:
+  duration_s: 480
+  dt: 30.0
+  max_el_deg: 45.0
+
+interferers:
+  num: 3
+
+channel:
+  noise_power_dbm: -100
+  interferer_power_dbm: -82
+  apply_errors: false
+
+objective:
+  alpha: 1.0
+  beta: 0.5
+  gamma: 0.15
+
+optimizer:
+  name: "PSO"
+  pop: 28
+  iters: 60

@@ -1,0 +1,11 @@
+{
+  "optimizer": "DE",
+  "dims": 272,
+  "pop": 24,
+  "iters": 50,
+  "snr_avg_opt_lin": 484015555077.8389,
+  "snr_avg_opt_db": 116.84859319032671,
+  "sll_max_opt_lin": 0.20492313618918995,
+  "retune_cost": 1.433575123729128,
+  "objective_value": 484015555077.5931
+}
