@@ -80,7 +80,6 @@ def make_config(tag, **overrides):
     return cfg
 
 def build_suite():
-    """Define a compact set of experiments worth discussing."""
     suite = []
 
     # Quantization sweep
@@ -140,7 +139,6 @@ if __name__ == "__main__":
     print("\n=== Aggregate (results/aggregate.csv) ===")
     print_table(rows, cols=["tag", "optimizer", "snr_avg_db", "sll_max_db", "retune_cost"])
 
-    # Convenience: grouped views you can screenshot or share
     bits = [r for r in rows if r["tag"] in {"ga_bits2", "ga_bits3", "ga_bits4"}]
     if bits:
         print("\n--- Quantization sweep ---")

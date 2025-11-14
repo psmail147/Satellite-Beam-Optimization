@@ -54,8 +54,6 @@ def make_fitness(array, T, az_series, el_series, forbidden_dirs, alpha, beta, ga
     return f
 
 def run_mealpy(optimizer_name, fitness, lb, ub, dims, pop=32, iters=100, seed=42):
-    # Mealpy 3.0.x requires typed bounds. Our genome is real in [0, 1].
-    # If you later need mixed types, build the list accordingly (FloatVar/IntegerVar/etc.).
     bounds = [FloatVar(lb=0.0, ub=1.0) for _ in range(dims)]
 
     # Build Problem with typed bounds
